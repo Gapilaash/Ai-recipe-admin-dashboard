@@ -1,0 +1,17 @@
+# secrets - never push these
+.env
+.env.*
+!.env.example
+
+# local database / python junk
+app.db
+__pycache__/
+*.pyc
+
+# virtual environments (huge, not needed on GitHub/Vercel)
+venv/
+.venv/
+
+# vercel / OS
+.vercel/
+.DS_Store
